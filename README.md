@@ -68,29 +68,4 @@ Tailwind CSS
 
 TypeScript
 
-📦 Project Structure
-tinylink/
- ├── app/
- │   ├── api/
- │   │   └── links/
- │   │       └── route.ts           # POST & GET all links
- │   ├── [code]/route.ts            # Redirect handler
- │   ├── components/
- │   │   └── ui/                    # UI components (button, input, table, etc.)
- │   ├── page.tsx                   # Dashboard page
- │   ├── globals.css                # Tailwind styles
- │
- ├── prisma/
- │   └── schema.prisma              # Database schema
- │
- ├── public/
- │   └── favicon.ico
- │
- ├── package.json
- ├── tsconfig.json
- ├── next.config.js
- ├── tailwind.config.js
- ├── postcss.config.js
- ├── .env.example
- └── README.md
 
